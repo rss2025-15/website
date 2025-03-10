@@ -57,8 +57,8 @@
 }
 
 .lab_vids {
-  box-shadow: 0 5px 10px #d0a98f;
-  background-color: #d0a98f;
+  box-shadow: 0 5px 10px #69457a;
+  background-color: #69457a;
   text-align: center;
   margin-bottom: 60px;
 }
@@ -112,8 +112,8 @@
   /* padding: 500px; */
   /* border: 1px solid #ccc; */
   border-radius: 10px;
-  box-shadow: 0 5px 10px #d0a98f;
-  background-color: #d0a98f;
+  box-shadow: 0 5px 10px #69457a;
+  background-color: #69457a;
   /* display: inline-block; */
   vertical-align: top;
   text-align: center;
@@ -122,7 +122,7 @@
   transition: box-shadow 0.15s ease;
 }
 .card:hover {
-  box-shadow: 5px 10px 20px #d0a98f;
+  box-shadow: 5px 10px 20px #69457a;
 }
 .card img {
   max-width: 100%;
@@ -2311,7 +2311,7 @@ input[type="radio"] + label:before {
 }
 
 .icon.style2 {
-  color: #d0a98f;
+  color: #69457a;
 }
 
 .icon.style3 {
@@ -3029,7 +3029,7 @@ button:disabled,
 }
 
 .wrapper.style1 {
-  background-color: #d0a98f;
+  background-color: #69457a;
   color: #c8ece9;
 }
 
@@ -3584,7 +3584,7 @@ h1 {
   -ms-transition: -ms-transform 0.5s ease;
   transition: transform 0.5s ease;
   -webkit-overflow-scrolling: touch;
-  background: #d0a98f;
+  background: #69457a;
   color: #ffffff;
   height: 100%;
   max-width: 80%;
