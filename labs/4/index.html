@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RSS Team 15</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+      <!-- Header -->
+      <header id="header">
+        <h1><a href="../../index.html">RSS Team 15</a></h1>
+        <nav id="nav">
+          <ul>
+            <li class="special">
+              <a href="#menu" class="menuToggle"><span>Menu</span></a>
+              <div id="menu"></div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Main -->
+      <article id="main">
+        <header>
+          <h2>Visual Servoing</h2>
+        </header>
+        <section class="wrapper style5">
+          <div class="report">
+            <p><a href="https://docs.google.com/presentation/d/1xR-yczBa5nHQCLmLFeoqCgPptZ0BPc95O8x1_I7nBEM/edit?usp=sharing">Link to Presentation</a></p>
+
+            <h2>Code</h2>
+            <p><a href="https://github.com/rss2025-15/wall_follower">Visual Servoing</a></p>
+
+            <h2>Slides</h2>
+            <iframe 
+              src="https://docs.google.com/presentation/d/e/2PACX-1vRUZ-liXx_YYE4GEkgnHbDFmn4c0fLXwR6dNIz6mvwxcMGIaIgyDBcbgHUIb2hKcCYYi9qKpM_Cwa5l/embed?start=false&loop=false&delayms=3000" 
+              frameborder="0" 
+              width="800" 
+              height="600" 
+              allowfullscreen="true" 
+              mozallowfullscreen="true" 
+              webkitallowfullscreen="true">
+            </iframe>
+
+          </div>
+        </section>        
+      </article>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <ul class="copyright">
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../../assets/js/jquery.min.js"></script>
+    <script src="../../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../../assets/js/jquery.scrolly.min.js"></script>
+    <script src="../../assets/js/browser.min.js"></script>
+    <script src="../../assets/js/breakpoints.min.js"></script>
+    <script src="../../assets/js/util.js"></script>
+    <script src="../../assets/js/main.js"></script>
+    <script>
+      // Load included menu
+      fetch("../../menus/menu3.html")
+        .then((response) => response.text())
+        .then((html) => {
+          document.getElementById("menu").innerHTML = html;
+        });
+    </script>
+  </body>
+</html>
